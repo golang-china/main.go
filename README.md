@@ -94,6 +94,14 @@ func Init(goRoot, goZipFile, goTemplateDir string)
 
 也可以加入QQ群(368836416)先了解下情况.
 
+## 任务认领
+
+目前还没有统一的方式(以后也不一定有). 认领的目的主要是为了不做重复工作.
+
+大家可以在 [golangdoc.translations](https://github.com/golang-china/golangdoc.translations) 上建立 ISSUE 标记下.
+
+或者在 QQ群 里说下都可以.
+
 
 ## 更多参考
 
