@@ -76,5 +76,4 @@ package bytes
 例如`example_test.go`）。
 
 每个源文件头的版权声明，我们则不作翻译。
-此外，如果在翻译过程中发现 typo，请向官方提交 patch，具体方法见
-https://zh-golang.appspot.com/doc/contribute.html
+

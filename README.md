@@ -7,7 +7,7 @@ Go语言自带了一个 godoc 工具, 用于浏览本地的Go文档.
 但是官方的 godoc 工具并不支持多种语言的切换.
 如果需要基于 官方的 godoc 来翻译Go的文档, 需要直接修改Go源码中的注释.
 
-这是 Go-zh 之前一直采用的方式方式:
+这是 Go-zh 之前一直采用的方式:
 https://github.com/Go-zh/go
 
 直接在Go源码上进行翻译的优点是完美兼容官方的 godoc 工具.
@@ -19,7 +19,7 @@ https://github.com/Go-zh/go
 - 无法支持多种翻译语言, 每种翻译语言都必须对应一个Go的修改版本
 - 和Go官方的代码同步很困难
 
-既然直接在Go源码上进行翻译有这么多缺点, 为何不能修改 godoc 工具呢?
+总是要做修改(不是改Go源码就是改godoc工具), 而且直接在Go源码上进行翻译有很多缺点, 为何不能修改 godoc 工具呢?
 
 这是我们采用的翻译思路: 改进 godoc 工具, 支持外部翻译文件的动态加载.
 
@@ -105,7 +105,6 @@ func Init(goRoot, goZipFile, goTemplateDir string)
 
 ## 更多参考
 
-- [Go 项目翻译指南](trans-guide.md)
 - [Go 项目翻译规范](trans-spec.md)
 - [术语翻译](trans-terms.md)
 
