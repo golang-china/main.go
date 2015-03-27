@@ -7,6 +7,8 @@ argument          | 实参              | n      |      |
 assignment        | 赋值              | n      |      |
 block             | 块/阻塞           | n      |      | “阻塞”仅用于信道
 body              | 执行体            | n      |      |
+buffer            | 缓冲区            | n      |      |
+cache             | 缓存              | n      |      |
 case              | 情况/写法         | n      |      | 在用作大小写时译作“写法”，因为有些字母还有其它多种写法
 channel           | 信道              | n      |      |
 char/character    | 字符              | n      |      |
@@ -16,11 +18,13 @@ commit            | 提交              | v      |      | 即直接向repo提交
 compatibility     | 兼容性            | n/adj  |      |
 complex           | 复数              | n      |      |
 constant          | 常量              | n      |      |
+constructor       | 构造函数          | n      |      |
 convention        | 约定              | n      |      |
 defer             | 推迟              | v      |      |
 degree            | 阶                | n      |      | 仅用于多项式
 distribute        | 分发              | v      |      |
 distribution      | 分发              | n      |      |
+embedding         | 内嵌              | n/v    |      | 用作类型，与“嵌入式”分开
 error             | 错误/误差         | n      |      | “误差”用于数学
 evaluation        | 求值              | n      |      |
 even              | 偶(数)            | n/adj  |      |
@@ -63,9 +67,5 @@ token             | [词法]标记        | n      |      |
 ulp               | 末尾单元          | n      |      | Unit in the Last Place 的缩写
 universe block    | 全域块            | n      |      |
 variable          | 变量              | n      |      |
-buffer            | 缓冲区            | n      |      |
-cache             | 缓存              | n      |      |
-constructor       | 构造函数          | n      |      |
-embedding         | 内嵌              | n/v    |      | 用作类型，与“嵌入式”分开
 
-说明: 如果对翻译有更好的建议请 [创建ISSUE](https://github.com/golang-china/golang-china.github.com/issues/new) 参与讨论。
+说明: 如果对翻译有更好的建议请 [创建ISSUE](https://github.com/golang-china/golang-china.github.com/issues/new) 参与讨论。添加新词请按字符串排序。
