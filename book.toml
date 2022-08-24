@@ -1,0 +1,20 @@
+# https://giscus.app
+# https://github.com/badboy/mdbook-mermaid
+
+[book]
+title = "Go语言中国"
+authors = ["中国 Gopher"]
+description = "中国最早的Go社区·始于2010年"
+language = "zh"
+multilingual = false
+src = "."
+
+[build]
+build-dir = "book"
+
+[output.html]
+additional-css = ["static/css/style.css", "static/css/asciinema-player.css"]
+additional-js = ["static/js/custom.js", "static/js/bigPicture.js", "static/js/asciinema-player.js"]
+git-repository-url = "https://github.com/golang-china/main.go"
+edit-url-template = "https://github.com/golang-china/main.go/edit/master/{path}"
+git-repository-icon = "fa-github"
