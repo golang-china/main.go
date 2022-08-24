@@ -16,5 +16,5 @@ build-dir = "book"
 additional-css = ["static/css/style.css", "static/css/asciinema-player.css"]
 additional-js = ["static/js/custom.js", "static/js/bigPicture.js", "static/js/asciinema-player.js"]
 git-repository-url = "https://github.com/golang-china/main.go"
-edit-url-template = "https://github.com/golang-china/main.go/edit/master/{path}"
+edit-url-template = "https://github.com/golang-china/main.go/edit/main/{path}"
 git-repository-icon = "fa-github"
